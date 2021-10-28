@@ -19,7 +19,7 @@
         app:layout_constraintHorizontal_bias="0.061"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.975" />
+        app:layout_constraintVertical_bias="0.855" />
 
     <Button
         android:id="@+id/buttonEmo4"
@@ -33,7 +33,7 @@
         app:layout_constraintHorizontal_bias="0.938"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.975" />
+        app:layout_constraintVertical_bias="0.855" />
 
     <Button
         android:id="@+id/buttonEmo1"
@@ -48,7 +48,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.842" />
+        app:layout_constraintVertical_bias="0.726" />
 
     <Button
         android:id="@+id/buttonEmo2"
@@ -62,30 +62,18 @@
         app:layout_constraintHorizontal_bias="0.938"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.842" />
+        app:layout_constraintVertical_bias="0.726" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
+        android:layout_width="411dp"
+        android:layout_height="112dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.449">
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/Type"
-            android:layout_width="match_parent"
-            android:layout_height="119dp"
-            android:fontFamily="sans-serif-thin"
-            android:hint="@string/hint"
-            android:hintTextColor="#616161"
-            android:singleLine="false"
-            android:textAlignment="viewStart"
-            android:textColor="#616161"
-            android:textColorHighlight="#F6F6F6"
-            android:textColorLink="#A12929"
-            android:textSize="16sp"
-            tools:ignore="TextContrastCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
@@ -100,7 +88,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.728" />
+        app:layout_constraintVertical_bias="0.617" />
 
     <TextView
         android:id="@+id/DTgroup"
@@ -112,20 +100,34 @@
         app:layout_constraintHorizontal_bias="0.941"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.728" />
+        app:layout_constraintVertical_bias="0.617" />
 
-    <TextView
-        android:id="@+id/topHeader"
-        android:layout_width="351dp"
-        android:layout_height="64dp"
-        android:text="@string/healthy_shares"
-        android:textAlignment="center"
-        android:textSize="34sp"
-        android:textStyle="italic"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="125dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/heathy_shares_image1" />
+
+    <TextView
+        android:id="@+id/webLink"
+        android:layout_width="411dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="www.HealthyShares.com/mobile-app    "
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
